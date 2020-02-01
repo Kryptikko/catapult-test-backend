@@ -1,5 +1,6 @@
 from src.models import sess, Base, engine
-from src.models.Shifts import Shift, Contractor
+from src.models.Shifts import Shift
+from src.models.Contractors import Contractor
 import json
 
 from os import system

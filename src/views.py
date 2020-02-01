@@ -10,18 +10,16 @@ app = Flask(__name__)
 @app.route("/shifts")
 def get_shifts():
     shifts = shift_controller.get_all()
-    print shifts
     def _format_output(shift):
         return dict(shift)
         # return shift.__dict__
         # return shift.to_dict()
         # return jsonify(shift)
-    response  = dict(shifts)
     # response = [dict(r) for r in shifts]
-    # response = map(_format_output, shifts)
-    print response
+    response = map(_format_output, shifts)
+    print(response)
     # return response
-    return jsonify({"response": True})
+    return jsonify({"response": response})
 
 @app.route("/shifts/:id/contracts")
 def get_shift_contracts(shift_id):

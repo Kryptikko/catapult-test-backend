@@ -1,4 +1,4 @@
-from sqlalchemy import Integer, String
+from sqlalchemy import Integer, String, Column
 from sqlalchemy.orm import relationship
 from . import Base
 from .ShiftInvitations import ShiftInvitations
