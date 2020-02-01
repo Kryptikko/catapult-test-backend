@@ -1,3 +1,11 @@
 Sample Module Repository
 ========================
-pip install -r requirements.txt
+The solution is using the build python sqlite3
+
+pre-requestites:
+python 2.7
+
+make env
+make init
+fab bootstrap_db
+fab serve

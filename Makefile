@@ -6,6 +6,3 @@ init:
 
 test:
 	nosetests tests
-
-serve:
-	FLASK_APP=src/views.py FLASK_ENV=development flask run

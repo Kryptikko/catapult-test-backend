@@ -1,9 +1,8 @@
+import json
+from os import system
 from src.models import sess, Base, engine
 from src.models.Shifts import Shift
 from src.models.Contractors import Contractor
-import json
-
-from os import system
 
 def serve():
     system("FLASK_APP=src/views.py FLASK_ENV=development flask run")
@@ -12,6 +11,7 @@ def serve():
 def drop_db():
     Base.metadata.drop_all(engine)
     sess.commit()
+
 
 def bootstrap_db():
     Base.metadata.drop_all(engine)
