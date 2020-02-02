@@ -3,48 +3,48 @@
     {
       "role_id":1,
       "shift_date":"Tuesday 10 March 2020",
-      "start_time":"07:00",
-      "end_time":"14:00",
+      "start_time":"07:00:00",
+      "end_time":"14:00:00",
       "staff_required":5,
       "job_type":"Waiting staff"
     },
     {
       "role_id":2,
       "shift_date":"Thursday 12 March 2020",
-      "start_time":"09:00",
-      "end_time":"17:00",
+      "start_time":"09:00:00",
+      "end_time":"17:00:00",
       "staff_required":2,
       "job_type":"Retail store shift"
     },
     {
       "role_id":3,
       "shift_date":"Thursday 12 March 2020",
-      "start_time":"13:00",
-      "end_time":"19:00",
+      "start_time":"13:00:00",
+      "end_time":"19:00:00",
       "staff_required":1,
       "job_type":"Waiting staff"
     },
     {
       "role_id":4,
       "shift_date":"Friday 13 March 2020",
-      "start_time":"10:00",
-      "end_time":"18:00",
+      "start_time":"10:00:00",
+      "end_time":"18:00:00",
       "staff_required":3,
       "job_type":"Barista"
     },
     {
       "role_id":5,
       "shift_date":"Saturday 14 March 2020",
-      "start_time":"15:00",
-      "end_time":"19:00",
+      "start_time":"15:00:00",
+      "end_time":"19:00:00",
       "staff_required":2,
       "job_type":"Receptionist"
     },
     {
       "role_id":6,
       "shift_date":"Saturday 14 March 2020",
-      "start_time":"10:00",
-      "end_time":"16:00",
+      "start_time":"10:00:00",
+      "end_time":"16:00:00",
       "staff_required":2,
       "job_type":"Security"
     }

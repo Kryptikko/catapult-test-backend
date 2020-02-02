@@ -1,7 +1,7 @@
 from sqlalchemy import Integer, String, Column
 from sqlalchemy.orm import relationship
-from . import Base
-from .ShiftInvitations import ShiftInvitations
+from src.models import Base
+from src.models.ShiftInvitations import ShiftInvitations
 
 
 class Contractor(Base):

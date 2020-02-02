@@ -1,12 +1,14 @@
+# -*- coding: utf-8 -*-
 from sqlalchemy import (
     Integer,
     Column,
     String,
     Table,
+    Time,
     ForeignKey)
 from sqlalchemy.orm import relationship
-from . import Base
-from .ShiftInvitations import ShiftInvitations
+from src.models import Base
+from src.models.ShiftInvitations import ShiftInvitations
 
 
 class Shift(Base):
@@ -17,8 +19,8 @@ class Shift(Base):
     # TODO: seprate unique table for job_types?
     job_type = Column(String)
     shift_date = Column(String)
-    start_time = Column(String)
-    end_time = Column(String)
+    start_time = Column(Time)
+    end_time = Column(Time)
     contractors = relationship(
         "Contractor",
         back_populates="shifts",

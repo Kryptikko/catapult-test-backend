@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Table, ForeignKey, Integer
-from . import Base
+from src.models import Base
 
 
 ShiftInvitations = Table('shift_invitations', Base.metadata,
